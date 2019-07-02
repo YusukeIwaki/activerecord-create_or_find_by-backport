@@ -1,5 +1,5 @@
 require "bundler/setup"
-require "activerecord/create_or_find_by/backport"
+require "activerecord-create_or_find_by-backport"
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure

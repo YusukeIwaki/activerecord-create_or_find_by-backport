@@ -1,11 +1,11 @@
 
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "activerecord/create_or_find_by/backport/version"
+require "activerecord-create_or_find_by-backport/version"
 
 Gem::Specification.new do |spec|
   spec.name          = "activerecord-create_or_find_by-backport"
-  spec.version       = Activerecord::CreateOrFindBy::Backport::VERSION
+  spec.version       = ActiverecordCreateOrFindByBackport::VERSION
   spec.authors       = ["YusukeIwaki"]
   spec.email         = ["q7w8e9w8q7w8e9@yahoo.co.jp"]
 
